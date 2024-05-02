@@ -1,5 +1,6 @@
 /*
- * 
+ *     code written by Martin Thalheimer
+ *     capacitance measurement based on: https://wordpress.codewrite.co.uk/pic/2014/01/21/cap-meter-with-arduino-uno/
  */
 #include <TinyLoRa.h>  //TinyLora by Adafruit
 #include <SPI.h>
