@@ -1,0 +1,24 @@
+function Decoder(bytes, port) {
+
+  return {
+    
+  //Sensor ID
+  Z: (bytes[0]),
+  
+  //light 1
+  A: ((bytes[2] << 8) | bytes[1]),
+  
+  //light 2
+  B: ((bytes[4] << 8) | bytes[3]),
+  
+  //capacitance 1
+  C: (bytes[5]),
+  
+  //capacitance 2
+  D: (bytes[6]),
+  
+  //Battery voltage
+  //rounded to 2 decimals
+  E:+((((bytes[8] << 8) | bytes[7]))*3.3/1023).toFixed(2)
+  }
+}
