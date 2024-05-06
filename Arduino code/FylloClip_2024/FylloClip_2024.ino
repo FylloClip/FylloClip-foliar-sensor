@@ -348,8 +348,8 @@ void emptyBuffer() {
 
 void measure_light() {
 //photodiode_1
-  pinMode(RAD_1, OUTPUT); //disconnect GND 
-  digitalWrite(RAD_1, LOW); //disconnect GND 
+  pinMode(RAD_1, OUTPUT); //connect GND 
+  digitalWrite(RAD_1, LOW); //connect GND 
  L1 = 0;
   for (j=0; j <= 9; j++){  //take 10 readings and calculate mean value
       L1=L1 + analogRead(photodiode_1);
@@ -359,8 +359,8 @@ void measure_light() {
   L1=L1/10; //mean value 
 
 //photodiode_2
-  pinMode(RAD_2, OUTPUT); //disconnect GND 
-  digitalWrite(RAD_2, LOW); //disconnect GND  
+  pinMode(RAD_2, OUTPUT); //connect GND 
+  digitalWrite(RAD_2, LOW); //connect GND  
  L2 = 0;
   for (j=0; j <= 9; j++){  //take 10 readings and calculate mean value
       L2=L2 + analogRead(photodiode_2);
