@@ -2,7 +2,7 @@
 
 The current and fully maintained version of the FylloClip documentation, including step-by-step instructions for building, programming, and deploying the sensor, is available here:
 
-➡️ https://github.com/FylloClip/tutorial
+➡️ https://fylloclip.github.io/tutorial/
 
 ## 📌 What happened?
 
