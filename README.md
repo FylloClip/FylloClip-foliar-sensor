@@ -4,12 +4,16 @@ The current and fully maintained version of the FylloClip documentation, includi
 
 ➡️ https://fylloclip.github.io/tutorial/
 
-## 📌 What happened?
+Source code and project files are available here:
+https://github.com/FylloClip/tutorial
+
+
+## What happened?
 
 This repository represents an early development stage of the FylloClip foliar sensor project.  
 Since then, the documentation has been significantly improved, restructured, and expanded to provide a clearer and more user-friendly tutorial.
 
-## 📦 Content of this repository
+## Content of this repository
 
 This repository is preserved for reference purposes and may contain:
 - early versions of the Arduino code
@@ -22,11 +26,3 @@ This repository is preserved for reference purposes and may contain:
 
 This repository has been archived and is read-only.  
 No further updates or support will be provided here.
-
-## 📫 Contact
-
-If you have any questions or feedback, please refer to the main tutorial repository or contact the project maintainers.
-
----
-
-✅ Thank you for your interest in the FylloClip project!
